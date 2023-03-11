@@ -1,13 +1,14 @@
 [
     //Improvement
-//	{
-//		"name": "Fishing Spot",
-//		"terrainsCanBeBuiltOn": ["Frozen Lakes"],
-//		"food": 1,
-//		"turnsToBuild": 7,
-//		"techRequired": "Sailing",
-//		"uniques": ["[+1 Gold] <after discovering [Compass]>","[+1 Food] <after discovering [Fertilizer]>"]
-//	},
+	{
+		"name": "Fishing Spot",
+                "uniqueTo": "Majapahit", 
+		"terrainsCanBeBuiltOn": ["Snow"],
+		"food": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built on [Coastal] tiles", "[+1 Food] <with [1] to [6] neighboring [Fish] tiles>"]
+	},
     {
        "name": "Kampung",
        "uniqueTo": "Majapahit",
