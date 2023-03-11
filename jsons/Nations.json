@@ -378,7 +378,7 @@
 	    "innerColor": [166,33,122],
 	    "uniqueName": "Mandala Zone",
 	    "uniqueText": "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
-	    "uniques": ["All newly-trained [Water Melee] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+50]% Yield from every [Mine]", "[+50]% Yield from every [Farm]", "[-50]% Yield from every [Production]"],
+	    "uniques": ["All newly-trained [Water Melee] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+50]% Yield from every [Mine]", "[+50]% Yield from every [Farm]", "[-50]% [Production] from every [Production]", "[25]% of excess happiness converted to [Production]"],
 	    "cities": ["Bandung","New York","Jakarta","London","Tokyo","Paris","Canberra"]
 	},
 	{
