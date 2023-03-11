@@ -20,7 +20,8 @@
 	//Great Tregtia resources
 	{
 		"name": "Religious Objects", 
-		"gold": 2,
+		"gold": 1,
+                "Faith": 1,
 		"resourceType": "Luxury",
 	},
 	{
