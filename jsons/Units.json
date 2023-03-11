@@ -82,15 +82,16 @@
 	    "uniqueTo": "Leisi",
 		"replaces": "Chariot Archer",
 		"unitType": "Archery",
-		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 12,
-		"cost": 65,
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 9,
+		"cost": 45,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"attackSound": "arrow",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"]
+                "promotions": ["March"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Double movement in [Snow]", "[+1] Movement <in [Tundra] tiles", "Can enter ice tiles", "Can instantly construct a [Camp] improvement"]
 	},
 	{
 	    "name": "Macan Bodas",
