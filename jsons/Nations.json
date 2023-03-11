@@ -203,9 +203,9 @@
 		"tradeRequest": "I have a trade offer that may be of interest to you.",
 		"outerColor": [255,254,1],
 		"innerColor": [239,27,39],
-		"uniqueName": "The Last Best East",
+		"uniqueName": "The Land With No Sun And The Last Best East",
 		"uniqueText": "After discovering [Industrialization], [+2 Production] from every [Mine] and [Lumber mill] in [Tundra] and [Snow] tiles, [+2 Food] from every [Camp] and [Farm] in [Tundra] and [Snow] tiles",
-		"uniques": ["[+2 Production] from every [Mine] <in [Tundra] tiles> <after discovering [Industrialization]>","[+2 Production] from every [Mine] <in [Snow] tiles> <after discovering [Industrialization]>","[+2 Production] from every [Lumber mill] <in [Tundra] tiles> <after discovering [Industrialization]>","[+2 Production] from every [Lumber mill] <in [Snow] tiles> <after discovering [Industrialization]>","[+2 Food] from every [Camp] <in [Tundra] tiles> <after discovering [Industrialization]>","[+2 Food] from every [Camp] <in [Snow] tiles> <after discovering [Industrialization]>","[+2 Food] from every [Farm] <in [Tundra] tiles> <after discovering [Industrialization]>","[+2 Food] from every [Farm] <in [Snow] tiles> <after discovering [Industrialization]>"],
+		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in [Tundra] tiles>","[+2 Production] from every [Mine] <in [Snow] tiles>","[+1] Happiness from each type of luxury resource", "[+2 Food] from every [Farm] <in [Tundra] tiles>", "[+1 Production, +1 Faith, +1 Food] from every [Fish]","[-1 Food] from every [Farm] <in [Tundra] tiles> <in cities with at least [6] [Population]>", "[+2] Sight <for [Water] units> <within [2] tiles of a [Ice]>", "[+2] Sight <for [Land] units> <within [2] tiles of a [Snow]", "[+25]% Food is carried over after population increases [in all coastal cities] <in [Tundra] Regions>", "[+2 Production] from [Snow] tiles [in all coastal cities] <after discovering [Industrialization]>"],
 		"cities": ["Ares","Bagg","Surya","Seiig","Seong","Yoai","Trang","Pakaraya","Ponak","Sarinda","Masin","Tanjie","Baiah","Jaia"]
       },
       {
@@ -378,7 +378,7 @@
 	    "innerColor": [166,33,122],
 	    "uniqueName": "Mandala Zone",
 	    "uniqueText": "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
-	    "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.","[Work Boats] units gain the [Jolopong] promotion"],
+	    "uniques": ["All newly-trained [Water Melee] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+50]% Yield from every [Mine]", "[+50]% Yield from every [Farm]", "[-50]% Yield from every [Production]"],
 	    "cities": ["Bandung","New York","Jakarta","London","Tokyo","Paris","Canberra"]
 	},
 	{
