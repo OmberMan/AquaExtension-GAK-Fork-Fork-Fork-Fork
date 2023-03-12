@@ -66,13 +66,14 @@
 	{
 	      "name": "Germany2",
 	      "leaderName": "Adolf Hitler",
-	      "adjective": ["German"],
+	      "adjective": ["Nazi"],
 	      "preferredVictoryType": "Domination",
-	      "favoredReligion": "Christianity",
+	      "favoredReligion": "Islam",
+              "style": "Germanic",
 	
 	      "uniqueName": "Blitzkrieg",
-	      "uniques": ["Upon capturing a city, receive [6] times its [Science] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitzkrieg] promotion"],
-	      "outerColor": [140,22,22],
+	      "uniques": ["Upon capturing a city, receive [8] times its [Production] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitz] promotion", "Gain [40]-[160] [Culture] <upon declaring war with a major Civilization>", "[+20]% Production when constructing [All] units [all cities] <when at war>", "[-1 Happiness, -1 Food, +2 Production] [in annexed cities]"],
+	      "outerColor": [150,22,18],
 		  "innerColor": [0,0,0],
 	      "cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
@@ -105,13 +106,13 @@
 		"uniques": ["[+1 Food] from every [Forest] <in [Fresh water] tiles>","[+1 Food] from every [Forest] <in [Hill] tiles>","[+1 Gold] from every [Lumber mill]"],
 		"cities": ["Hilands","New Hilands","Astara","Nailee","Tai","Neo Tai","Lunkei","Satrya","Benneck","Vremont"]
       },
-	{
+	/* {
         "name": "Indonesia3",
 	    "leaderName":"Aidan",
 	    "startBias":["Coast"],
 	    "adjective": ["Indonesian"],
 	    "preferredVictoryType": "Scientific",
-	    "favoredReligion": "Atheism",
+    "favoredReligion": "Atheism",
 	    
 		"declaringWar": "The thing you have done to my people make me angry, and because of that I declared war on you!",
 		"attacked": "War? Pathetic.",
@@ -184,6 +185,7 @@
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
+ */
       {
         "name": "Leisi",
 	    "leaderName":"Raka",
@@ -208,6 +210,7 @@
 		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in [Tundra] tiles>","[+2 Production] from every [Mine] <in [Snow] tiles>","[+1] Happiness from each type of luxury resource", "[+2 Food] from every [Farm] <in [Tundra] tiles>", "[+1 Production, +1 Faith, +1 Food] from every [Fish]","[-1 Food] from every [Farm] <in [Tundra] tiles> <in cities with at least [6] [Population]>", "[+2] Sight <for [Water] units> <within [2] tiles of a [Ice]>", "[+2] Sight <for [Land] units> <within [2] tiles of a [Snow]", "[+25]% Food is carried over after population increases [in all coastal cities] <in [Tundra] Regions>", "[+2 Production] from [Snow] tiles [in all coastal cities] <after discovering [Industrialization]>"],
 		"cities": ["Ares","Bagg","Surya","Seiig","Seong","Yoai","Trang","Pakaraya","Ponak","Sarinda","Masin","Tanjie","Baiah","Jaia"]
       },
+/*
       {
         "name": "Majapahit",
         "leaderName": "Gitarja",
@@ -267,6 +270,7 @@
 			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
 			"Yogyakarta","Bima","Sorong"]
 	},
+*/
       {
 	      "name": "Malaysia",
 	      "leaderName": "Parameswara",
@@ -303,15 +307,15 @@
 	    "innerColor": [235,225,138],
 	    "uniqueName": "Songs of the Jeli",
 	    "uniqueText": "[+1 Faith, +1 Food] [in all cities] for each adjacent [Desert]\n[-1 Production, +3 Gold] from every [Mine]\n[-15]% Production when constructing [Military] units and [Buildings] buildings [in all cities]",
-	    "uniques": ["[+1 Faith, +1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
+	    "uniques": ["[+1 Faith, +1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles>", 
 "[+2 Faith, +2 Food] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
 "[+3 Faith, +3 Food] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
 "[+4 Faith, +4 Food] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
 "[+5 Faith, +5 Food] [in all cities] <with [5] to [5] neighboring [Desert] tiles>",
 "[+6 Faith, +6 Food] [in all cities] <with [6] to [6] neighboring [Desert] tiles>",
 "[-1 Production, +3 Gold] from every [Mine]",
-"[-15]% Production when constructing [Military] units [in all cities]",
-"[-15]% Production when constructing [Buildings] buildings [in all cities]"
+"[+1 Gold] for every [Gold Ore] [in all cities]",
+"[+2 Gold] for every [Salt] [in all cities]"
 ],
 	    "cities": ["Niani","Timbuktu","Jenne","Gao","Kumbi Saleh","Walata","Tawdenni","Tadmekka","Nioro","Segu","Awdaghust","Kirina","Kangaba","Kouroussa","Niagassola","Diara","Kayes","Dia","Kiri","Narena","Mopti","Arawan","N’teret","Tabon","Kukya","Siby","Fadama","Dakadiala","Kaniana","Siguiri"]
 	},
@@ -390,10 +394,10 @@
 	      "favoredReligion": "Atheism",
 	
 	      "defeated": "Is this the end?",
-	      "introduction": "Hell Yeah",
+	      "introduction": "Stalin on the bitches \nStalin on the hoes \nStalin on everybody \nYuo know how this shit goes \nNo more introduction needed",
 	
 	      "uniqueName": "The Glory of Communism",
-	      "uniques": ["Receive free [Great Engineer] everytime you built a [Gulag] [in annexed cities]. After discovering Industrialization, [Gulag] can be built [in capital]"],
+	      "uniques": ["Receive free [Great Engineer] everytime you built a [Gulag] [in annexed cities]. After discovering Industrialization, [Gulag] can be built [in capital]", "[-60]% [Gold]", "[+15]% Production when constructing [Production] buildings [in all cities]", "[+15]% Yield from every [Food] [in all non-occupied cities] <during a Golden Age>", "[-15]% Unhappiness from [Population] [in all cities with a garrison] <when between [75] and [-20] Happiness>", "[+15]% Production when constructing [Melee] units [in all non-occupied cities] <when at war>"], 
 	      "outerColor": [200,200,200],
 		  "innerColor": [100,0,0],
 	      "cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
