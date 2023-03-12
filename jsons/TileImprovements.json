@@ -2,7 +2,7 @@
     //Improvement
 	{
 		"name": "Fishing Spot",
-                "uniqueTo": "Majapahit", 
+                "uniqueTo": "Leisi", 
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"food": 1,
 		"turnsToBuild": 4,
