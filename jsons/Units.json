@@ -91,7 +91,7 @@
 		"obsoleteTech": "Chivalry",
 		"attackSound": "arrow",
                 "promotions": ["March"],
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Double movement in [Snow]", "[+1] Movement <in [Tundra] tiles", "Can enter ice tiles", "Can instantly construct a [Camp] improvement"]
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Double movement in [Snow]", "[+1] Movement <in [Tundra] tiles>", "Can enter ice tiles", "[+33]% Strength <when attacking> <with [22]% chance>", "Can instantly construct a [Camp] improvement"]
 	},
 	{
 	    "name": "Macan Bodas",
@@ -149,7 +149,7 @@
 		"requiredResource": "Uranium",
 		"promotions" : ["Evasion"],
 		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
-			"Blast radius [2]"],
+			"Blast radius [3]"],
 		"attackSound": "nuke"
 		// Plane rather than a missile - can be based in city or Carrier only.
 		// Can be intercepted, but must die for it not to take effect.
@@ -207,15 +207,15 @@
 		"uniqueTo": "Strahan",
 		"replaces": "Caravel",
 		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 20,
+		"movement": 3,
+		"strength": 7,
 		"cost": 100,
-		"hurryCostModifier": 30,
-		"requiredTech": "Astronomy",
+		"hurryCostModifier": 50,
+		"requiredTech": "Optics",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"attackSound": "cannon",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)","Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"]
+		"uniques": ["[+1] Sight", "May withdraw before melee ([50]%)","Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence <when above [90] HP>", "This Unit gains [1] XP <upon ending a turn in a [Foreign Land] tile>", "[+15]% Strength <when defending>", "May enter foreign tiles without open borders <when above [90] HP>", "[+10]% Strength <vs [Ranged] units> <when defending>", "Transfer Movement to [Civilian]"]
 	},
 	{
 	    "name": "Tiger I",
@@ -228,7 +228,7 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","No movement cost to pillage", "Destroys tile improvements when attacking <when fighting in [Foreign land] tiles>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","No movement cost to pillage", "Destroys tile improvements when attacking <when fighting in [Foreign Land] tiles>"],
                 "production": ["Great Generals I"],
 		"attackSound": "tankshot"
 	},
@@ -358,16 +358,16 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
+		"strength": 13,
+		"cost": 90,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 30,
 		"attackSound": "metalhit",
 		"promotions": ["[Holy Swordsman] ability"],
-		"uniques": ["May enter foreign tiles without open borders"]
+		"uniques": ["May enter foreign tiles without open borders", "Can [Spread Religion] [1] times", "Can see invisible [Land] units", "Ignores terrain cost"]
 	},
 	{
 		"name": "Airship",
