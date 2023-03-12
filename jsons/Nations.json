@@ -73,7 +73,7 @@
               "style": "Germanic",
 	
 	      "uniqueName": "Blitzkrieg",
-	      "uniques": ["Upon capturing a city, receive [8] times its [Production] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitz] promotion", "Gain [40]-[160] [Culture] <upon declaring war with a major Civilization>", "[+20]% Production when constructing [All] units [all cities] <when at war>", "[-1 Happiness, -1 Food, +2 Production] [in annexed cities]"],
+	      "uniques": ["Upon capturing a city, receive [8] times its [Production] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitz] promotion", "Gain [40]-[160] [Culture] <upon declaring war with a major Civilization>", "[+20]% Production when constructing [All] units [in all cities] <when at war>", "[-1 Happiness, -1 Food, +2 Production] [in annexed cities]"],
 	      "outerColor": [150,22,18],
 		  "innerColor": [0,0,0],
 	      "cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
@@ -208,9 +208,8 @@
 		"tradeRequest": "I have a trade offer that may be of interest to you.",
 		"outerColor": [255,254,1],
 		"innerColor": [239,27,39],
-		"uniqueName": "The Land With No Sun And The Last Best East",
-		"uniqueText": "After discovering [Industrialization], [+2 Production] from every [Mine] and [Lumber mill] in [Tundra] and [Snow] tiles, [+2 Food] from every [Camp] and [Farm] in [Tundra] and [Snow] tiles",
-		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in [Tundra] tiles>","[+2 Production] from every [Mine] <in [Snow] tiles>","[+1] Happiness from each type of luxury resource", "[+2 Food] from every [Farm] <in [Tundra] tiles>", "[+1 Production, +1 Faith, +1 Food] from every [Fish]","[-1 Food] from every [Farm] <in [Tundra] tiles> <in cities with at least [6] [Population]>", "[+2] Sight <for [Water] units> <within [2] tiles of a [Ice]>", "[+2] Sight <for [Land] units> <within [2] tiles of a [Snow]", "[+25]% Food is carried over after population increases [in all coastal cities] <in [Tundra] Regions>", "[+2 Production] from [Snow] tiles [in all coastal cities] <after discovering [Industrialization]>"],
+		"uniqueName": "The Land Without Sun & The Last Best East",
+		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in [Tundra] tiles>","[+2 Production] from every [Mine] <in [Snow] tiles>","[+1] Happiness from each type of luxury resource", "[+2 Food] from every [Farm] <in [Tundra] tiles>", "[+1 Production, +1 Faith, +1 Food] from every [Fish]","[-1 Food] from every [Farm] <in [Tundra] tiles> <in cities with at least [6] [Population]>", "[+2] Sight <for [Water] units> <within [2] tiles of a [Ice]>", "[+2] Sight <for [Land] units> <within [2] tiles of a [Snow]>", "[+25]% Food is carried over after population increases [in all coastal cities] <in [Tundra] Regions>", "[+2 Production] from [Snow] tiles [in all coastal cities] <after discovering [Industrialization]>"],
 		"cities": ["Ares","Bagg","Surya","Seiig","Seong","Yoai","Trang","Pakaraya","Ponak","Sarinda","Masin","Tanjie","Baiah","Jaia"]
       },
 /*
@@ -387,8 +386,7 @@
 	    "outerColor": [124,236,18],
 	    "innerColor": [166,33,122],
 	    "uniqueName": "Mandala Zone",
-	    "uniqueText": "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
-	    "uniques": ["All newly-trained [Water Melee] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+50]% Yield from every [Mine]", "[+50]% Yield from every [Farm]", "[-50]% [Production] from every [Production]", "[25]% of excess happiness converted to [Production]"],
+	    "uniques": ["All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+20]% Yield from every [Mine]", "[+40]% Yield from every [Farm]", "[-40]% [Production] from every [Production]", "[+40]% maintenance cost for buildings [in all non-occupied cities]", "[20]% of excess happiness converted to [Production]"],
 	    "cities": ["Bandung","Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
 			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir", "Canberra"]
 	},
@@ -405,9 +403,9 @@
 	      "introduction": "Stalin on the bitches \nStalin on the hoes \nStalin on everybody \nYuo know how this shit goes \nNo more introduction needed",
 	
 	      "uniqueName": "The Glory of Communism",
-	      "uniques": ["Receive free [Great Engineer] everytime you built a [Gulag] [in annexed cities]. After discovering Industrialization, [Gulag] can be built [in capital]", "[-60]% [Gold]", "[+15]% Production when constructing [Production] buildings [in all cities]", "[+15]% Yield from every [Food] [in all non-occupied cities] <during a Golden Age>", "[-15]% Unhappiness from [Population] [in all cities with a garrison] <when between [75] and [-20] Happiness>", "[+15]% Production when constructing [Melee] units [in all non-occupied cities] <when at war>"], 
-	      "outerColor": [200,200,200],
-		  "innerColor": [100,0,0],
+	      "uniques": ["[3] free [Worker] units appear <upon constructing [Gulag]>", "Free [Worker] appears <upon constructing [Granary]>", "[-60]% [Gold]", "[+15]% Production when constructing [Production] buildings [in all cities]", "[+15]% Yield from every [Food] [in all non-occupied cities] <during a Golden Age>", "[-15]% Unhappiness from [Population] [in all cities with a garrison] <when between [75] and [-20] Happiness>", "[+15]% Production when constructing [Melee] units [in all non-occupied cities] <when at war>"], 
+	      "outerColor": [200,20,20],
+		  "innerColor": [125,75,25],
 	      "cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
@@ -417,12 +415,13 @@
 	      "name": "Strahan",
 	      "leaderName": "Krasan",
 	      "startBias": ["Coast"],
-	      "adjective": ["Greed-Driven"],
+	      "adjective": ["Sociopathic Sigma-Male"],
 	      "preferredVictoryType": "Diplomatic",
 	      "favoredReligion": "Judaism",
+              "style": "Mediterranean",
 	
 	      "uniqueName": "The Rich City-states",
-	      "uniques": ["[+50]% [Gold] from Trade Routes","Cannot build [Settler] units","Receive free [Settler] when you discover [Optics]","Receive free [Settler] when you discover [Sailing]", "[-1 Happiness, +5 Gold] per [3] population [in all cites]", "[+15]% Yield from every [Gold]", "[+3 Gold, +1 Culture] from every [Merchant]", "Nullifies [Faith] [in all cities connected to capital]", "[Gold] cost of purchasing items in cities [-45]%", "Can spend Gold to annex or puppet a City-State that has been your ally for [9] turns <while the empire is happy>", "[-25]% Food is carried over after population increases [in all cities connected to capital]"],
+	      "uniques": ["[+50]% [Gold] from Trade Routes","Cannot build [Settler] units","Receive free [Settler] when you discover [Optics]","Receive free [Settler] when you discover [Sailing]", "[-1 Happiness, +5 Gold] per [3] population [in all cities]", "[+15]% Yield from every [Gold]", "[+3 Gold, +1 Culture] from every [Merchant]", "Nullifies [Faith] [in all cities connected to capital]", "[Gold] cost of purchasing items in cities [-45]%", "Can spend Gold to annex or puppet a City-State that has been your ally for [11] turns <while the empire is happy>", "[-25]% Food is carried over after population increases [in all cities connected to capital]"],
 	      "outerColor": [89,78,24],
 		  "innerColor": [255,223,0],
 	      "cities": ["Strahan","Hantar","Kladan","Lontar","Xixilan"]
@@ -467,7 +466,7 @@
               "style": "African",
 	
 	      "uniqueName": "Land of the Prophets",
-	      "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>","[-25]% Faith cost of generating Great Prophet equivalents"],
+	      "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>","[-25]% Faith cost of generating Great Prophet equivalents", "[+20]% Strength decreasing with distance from the capital <for [Sword] units> <after founding a religion>", "[+20]% Strength decreasing with distance from the capital <for [Archery] units> <after founding a Pantheon>", "[+10]% growth [in all cities] <in cities with at least [8] [Followers of the Majority Religion]>", "[+2 Faith, +1 Production] from [Hill] tiles [in holy cities] <in [Plains] tiles>", "[+1 Faith, +1 Food] from [Hill] tiles [in holy cities] <in [Grassland] tiles>", "[+1 Faith] from [Mountain] tiles [in all non-occupied cities]"],
 	      "outerColor": [15,154,0],
 		  "innerColor": [184,143,16],
 	      "cities": ["Aetherus","Paphollo","Chamoezen","Pheregea","Tauresia","Stympheidonia","Knidiki","Kasmenaros","Assespontos","Rinda","Chalcigus"
