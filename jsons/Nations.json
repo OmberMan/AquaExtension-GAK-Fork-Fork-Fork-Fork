@@ -56,6 +56,7 @@
 	      "startBias": ["Coast"],
 	      "preferredVictoryType": "Diplomatic",
 	      "favoredReligion": "Uncivism",
+              "style": "East Asian",
 	
 	      "uniqueName": "The Long Journey",
 	      "uniques": ["[Military] units gain the [The Long Journey] promotion"],
@@ -68,7 +69,7 @@
 	      "leaderName": "Adolf Hitler",
 	      "adjective": ["Nazi"],
 	      "preferredVictoryType": "Domination",
-	      "favoredReligion": "Islam",
+	      "favoredReligion": "Atheism",
               "style": "Germanic",
 	
 	      "uniqueName": "Blitzkrieg",
@@ -87,9 +88,10 @@
         "name": "Hiland",
 	    "leaderName": "Bill Denbrough",
 	    "startBias":["Forest"],
-	    "adjective": ["Hilandian"],
+	    "adjective": ["Doggerlander"],
 	    "preferredVictoryType": "Neutral",
 	    "favoredReligion": "Judaism",
+            "style": "Germanic",
 	    
 	    "startIntroPart1": "",
 		"startIntroPart2": "",
@@ -190,9 +192,10 @@
         "name": "Leisi",
 	    "leaderName":"Raka",
 	    "startBias":["Tundra"],
-	    "adjective": ["Leisian"],
+	    "adjective": ["Antarctic"],
 	    "preferredVictoryType": "Domination",
 	    "favoredReligion": "Shinto",
+            "style": "Oceanic",
 	    
 	    "startIntroPart1": "May success and prosperity always be with you, O Raka the Savior of the East. You led your nation when your nation was on the verge of collapse, as evidenced by the many deaths, famine, economic crisis, and the ongoing war against Bostuosil. But you managed to force Bostuosil to make peace because of your volunteer army of Loko Archers, and solve the economic crisis and hunger with your famous policies and improvement. Because of that your nation became the tundra nation who were feared because of the progress, wealth, prosperity of your people. Even though later your nation must be destroyed because the cruel Sunda Empire.",
 		"startIntroPart2": "But will your nation continue to crumble? O Raka the Savior of the East, your people ask you to return to being their leader and bring back all that Leisi had before, namely prosperity, progress, wealth, and much more. Can you bring your nation to its former glory? Can you build a civilization that will stand the test of time?",
@@ -276,8 +279,9 @@
 	      "leaderName": "Parameswara",
 	      "startBias": ["Coast"],
 	      "adjective": ["Malaysian"],
-	      "preferredVictoryType": "Cultural",
+	      "preferredVictoryType": "Diplomatic",
 	      "favoredReligion": "Islam",
+              "style": "East Asian",
 	
 	      "startIntroPart1": "All hail Parameswara, usurped Shah of Singapura and Sultan of mighty Malacca! For nine years, you ruled in splendour in the Lion City before a treacherous advisor stole it from you with the ships of the hated Majapahit. Forced to flee, you discovered a land over the seas where even the mouse-deers were formidable, and this place you named Malacca. Through your leadership, this new kingdom grew powerful, rivalling stolen Singapura in beauty, helped by your recruitment of the loyal Orang Laut to protect your traders from pirates, and though the Europeans stole your city from your descendants, one day they would take back what was theirs and live free once more.",
 		  "startIntroPart2": "O Supreme Lord, whose magnificence awed even the Celestial Emperors, Malacca is Malaysia and Malaysia is in direst peril. Will you fend off the pirates as you did in ages past? Will your kingdom rise once more to rule with trade and fire? Can you build a Civilization that will stand the test of time?",
@@ -293,8 +297,9 @@
 	    "leaderName": "Mansa Musa",
 	    "adjective": ["Malian"],
 	    "startBias": ["Desert"],
-	    "preferredVictoryType": "Diplomatic",
+	    "preferredVictoryType": "Cultural",
 	    "favoredReligion": "Islam",
+            "style": "African",
 	
 	    "declaringWar": "Your transgressions are as deep as oceans. O God, grant that I may chastise this one!",
 		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
@@ -364,10 +369,11 @@
 	{
 	    "name": "Sunda Empire",
 	    "leaderName": "Rangga Sasana",
-	    "adjective": ["Sundanese"],
+	    "adjective": ["Lemurian"],
 	    "startBias": ["Coast", "Avoid Tundra"],
 	    "preferredVictoryType": "Domination",
 	    "favoredReligion": "Buddhism",
+            "style": "North American",
 	
 	    "startIntroPart1": "Warm greetings to the ruler of the whole world, the great Rangga Sasana of the Sunda Empire. You have conquered the world and made them your brave warriors, all the progress you have made started from the Bandung Declaration which resulted in the advancement of technology and your army at least in the dream world. After that you quickly conquered the whole world in one day and started the Bandung Declaration II which contained a treaty of world unity in one banner of the Sunda Empire.",
 	    "startIntroPart2": "O Rangga Sasana the ruler of worlds. The empire you lead is indeed prosperous and victorious in all fields. But your people seem to be starting to lose their identity especially after you disappeared. O Rangga Sasana, your people ask you to lead them again in achieving the glory of the Sunda Empire forever and ever. Can you do it? Can you build a civilization that will stand the test of time?",
@@ -383,15 +389,17 @@
 	    "uniqueName": "Mandala Zone",
 	    "uniqueText": "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
 	    "uniques": ["All newly-trained [Water Melee] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+50]% Yield from every [Mine]", "[+50]% Yield from every [Farm]", "[-50]% [Production] from every [Production]", "[25]% of excess happiness converted to [Production]"],
-	    "cities": ["Bandung","New York","Jakarta","London","Tokyo","Paris","Canberra"]
+	    "cities": ["Bandung","Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
+			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir", "Canberra"]
 	},
 	{
 	      "name": "Soviet Union",
 	      "leaderName": "Joseph Stalin",
 	      "startBias": ["Tundra"],
-	      "adjective": ["Russian"],
+	      "adjective": ["Soviet"],
 	      "preferredVictoryType": "Domination",
 	      "favoredReligion": "Atheism",
+              "style": "Slavic",
 	
 	      "defeated": "Is this the end?",
 	      "introduction": "Stalin on the bitches \nStalin on the hoes \nStalin on everybody \nYuo know how this shit goes \nNo more introduction needed",
@@ -409,12 +417,12 @@
 	      "name": "Strahan",
 	      "leaderName": "Krasan",
 	      "startBias": ["Coast"],
-	      "adjective": ["Strahani"],
+	      "adjective": ["Greed-Driven"],
 	      "preferredVictoryType": "Diplomatic",
-	      "favoredReligion": "Uncivism",
+	      "favoredReligion": "Judaism",
 	
 	      "uniqueName": "The Rich City-states",
-	      "uniques": ["[+50]% [Gold] from Trade Routes","Cannot build [Settler] units","Receive free [Settler] when you discover [Optics]","Receive free [Settler] when you discover [Astronomy]"],
+	      "uniques": ["[+50]% [Gold] from Trade Routes","Cannot build [Settler] units","Receive free [Settler] when you discover [Optics]","Receive free [Settler] when you discover [Sailing]", "[-1 Happiness, +5 Gold] per [3] population [in all cites]", "[+15]% Yield from every [Gold]", "[+3 Gold, +1 Culture] from every [Merchant]", "Nullifies [Faith] [in all cities connected to capital]", "[Gold] cost of purchasing items in cities [-45]%", "Can spend Gold to annex or puppet a City-State that has been your ally for [9] turns <while the empire is happy>", "[-25]% Food is carried over after population increases [in all cities connected to capital]"],
 	      "outerColor": [89,78,24],
 		  "innerColor": [255,223,0],
 	      "cities": ["Strahan","Hantar","Kladan","Lontar","Xixilan"]
@@ -424,8 +432,8 @@
 	      "leaderName": "Taka Tiki",
 	      "startBias": ["Jungle"],
 	      "adjective": ["Taevasi"],
-	      "preferredVictoryType": "Cultural",
-	      "favoredReligion": "Others",
+	      "preferredVictoryType": "Science",
+	      "favoredReligion": "Taoism",
 	
 	      "uniqueName": "The Magical World",
 	      "uniqueText": "Unlocks special units which replace Archer and its subsequent upgrades with a special promotions",
@@ -438,28 +446,30 @@
 	      "name": "Thoule",
 	      "leaderName": "August",
 	      "startBias": ["Hill"],
-	      "adjective": ["Thoulish"],
-	      "preferredVictoryType": "Cultural",
+	      "adjective": ["Thulean"],
+	      "preferredVictoryType": "Diplomatic",
 	      "favoredReligion": "Turtlesism",
+              "style": "Nordic",
 	
 	      "uniqueName": "Sacred Fortress",
-	      "uniques": ["[+15]% Strength for cities <in [Hill] tiles> <with a garrison> <when attacking>","[+1 Culture, +1 Faith] from every [Walls]","[+1 Culture, +1 Faith] from every [Castle]","[+1 Culture, +1 Faith] from every [Arsenal]","[+1 Culture, +1 Faith] from every [Military Base]"],
+	      "uniques": ["[+15]% Strength for cities <in [Hill] tiles> <with a garrison> <when attacking>","[+1 Production] from every [Snow]","[+1 Faith, +1 Food] from every [Walls]","[+1 Culture, +1 Food] from every [Castle]","[+1 Culture, +1 Faith] from every [Arsenal]","[+1 Culture, +1 Faith] from every [Military Base]"],
 	      "outerColor": [62,44,203],
-		  "innerColor": [163,165,255],
+		  "innerColor": [165,235,163],
 	      "cities": ["Platgate","Foxding","Itouross","Plasa","Closhire","Izlork","Lensa","Krand","Encefield","Eleymouth"]
 	},
 	{
 	      "name": "Zastaria",
 	      "leaderName": "Dan",
 	      "startBias": ["Plains"],
-	      "adjective": ["Zastarian"],
-	      "preferredVictoryType": "Cultural",
-	      "favoredReligion": "Others",
+	      "adjective": ["Yohannian"],
+	      "preferredVictoryType": "Neutral",
+	      "favoredReligion": "Christianity",
+              "style": "African",
 	
 	      "uniqueName": "Land of the Prophets",
 	      "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>","[-25]% Faith cost of generating Great Prophet equivalents"],
 	      "outerColor": [15,154,0],
-		  "innerColor": [16,0,242],
+		  "innerColor": [184,143,16],
 	      "cities": ["Aetherus","Paphollo","Chamoezen","Pheregea","Tauresia","Stympheidonia","Knidiki","Kasmenaros","Assespontos","Rinda","Chalcigus"
 ]
 	}
