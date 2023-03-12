@@ -88,7 +88,7 @@
 		"hurryCostModifier": 30,
 		"uniques": ["Remove extra unhappiness from annexed cities", "[+1 Production] per [5] population [in this city]",
 			"Can only be built [in annexed cities]","Will not be displayed in Civilopedia","Free [Great Engineer] appears","Unsellable","Destroyed when the city is captured"],
-		"requiredTech": "Philosophy"
+		"requiredTech": "Engineering"
 	},
 	{
 	    "name": "Free [Gulag]",
@@ -318,8 +318,54 @@
         "happiness": 1,
         "uniques": ["Unbuildable","Hidden when religion is disabled","Only available <in cities without a [The Great Tregtia]>"],
     },
+	{
+		"name": "Krepost",
+		"replaces": "Barracks",
+		"uniqueTo": "Soviet Union",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[-50]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	}, 
+{
+		"name": "Hanse",
+		"replaces": "Bank",
+		"uniqueTo": "Germany2",
+		"gold": 2,
+	        "specialistSlots": {"Merchant": 1, "Engineer": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["+5% Production for every Trade Route with a City-State in the empire", "[+50]% [Production] from City-States", "[+15]% [Production] [in this city]"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Currency"
+	},
+{
+		"name": "Ruhr Valley",
+            "replaces": "Ironworks",
+            "uniqueTo": "Germany2",
+		"cost": 125,
+		"production": 2,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city",
+			"Must be on [River]", "[+2 Production] from [River] tiles [in this city]",
+			"[+2 Production] from every [Engineer]",
+			"[+2 Production] from every [Manufactory]"],
+		"requiredTech": "Engineering"
+	},
+{
+		"name": "Dacha",
+		"replaces": "Garden",
+		"uniqueTo": "Soviet Union",
+                "happiness": 2,
+		"uniques": ["[+25]% Great Person generation [in this city]","Must be next to [Fresh water]", "[+1 Food] from [Tundra] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Philosophy"
+	},
+    //Improvement 
 /*
-    //Improvement
     {
 		"name": "Stone Works",
 		"happiness": 1,
