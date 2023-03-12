@@ -99,13 +99,13 @@
 		"replaces": "Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 12,
-		"cost": 75,
+		"strength": 10,
+		"cost": 65,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>", "Can transform to [Spearman]", "Can see invisible [Land] units", "[+50]% to Flank Attack bonuses", "[+1] Sight"],
+		"hurryCostModifier": 30,
 		"attackSound": "horse",
 		"promotions": ["[Macan Bodas] ability"]
 	},
@@ -159,13 +159,13 @@
 	    "uniqueTo": "Soviet Union",
 		"replaces": "Tank",
 		"unitType": "Armored",
-		"movement": 6,
-		"strength": 75,
-		"cost": 375,
+		"movement": 4,
+		"strength": 64,
+		"cost": 325,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"promotions": ["Amphibious"],
+		"promotions": ["Amphibious", "Ambush I"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -222,13 +222,14 @@
 		"uniqueTo": "Germany2",
 		"replaces": "Tank",
 		"unitType": "Armored",
-		"movement": 6,
-		"strength": 78,
-		"cost": 375,
+		"movement": 4,
+		"strength": 84,
+		"cost": 425,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","No movement cost to pillage"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","No movement cost to pillage", "Destroys tile improvements when attacking <when fighting in [Foreign land] tiles>"],
+                "production": ["Great Generals I"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -242,6 +243,8 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
+                "promotions": ["Charge"],
+                "uniques": ["[+10]% Strength <after discovering [Mobile Tactics]>", "Heal this unit by [15] HP <upon being promoted>", "[+15]% Strength <when attacking>"],
 		"attackSound": "shot"
 	},
 	{
@@ -288,23 +291,6 @@
 		"uniques": ["Can carry [1] [Aircraft] units","[+50]% Strength <vs cities>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
-	},
-	{
-		"name": "Zero",
-		"unitType": "Fighter",
-		"replaces": "Fighter",
-		"uniqueTo": "Japan2",
-		"movement": 1,
-		"strength": 45,
-		"rangedStrength": 45,
-		"range": 8,
-		"interceptRange": 8,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
-		"promotions": ["[Zero] ability"],
-		"attackSound": "machinegun"
 	},
 	{
 	    "name": "Longcannon",
@@ -382,19 +368,6 @@
 		"attackSound": "metalhit",
 		"promotions": ["[Holy Swordsman] ability"],
 		"uniques": ["May enter foreign tiles without open borders"]
-	},
-	//Improvement
-	{
-		"name": "Scout",
-		"unitType": "Scout",
-		"upgradesTo": "Airship",
-		"movement": 2,
-		"strength": 5,
-		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Airship",
