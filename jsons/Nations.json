@@ -68,17 +68,17 @@
 	      "name": "Germany2",
 	      "leaderName": "Adolf Hitler",
 	      "adjective": ["Nazi"],
-              "introduction": "I am Adolf Hitler! Commander of the Third Reich!",
-              "declaringWar": "You stink, Vader, your style smells something sour! You need to wash up, dawg, here, step in my shower!",
-	      "attacked": "You have the Force to move objects, I am a force truly evil! Even went back in time and turned you wack in the prequel",
+              "introduction": "I am Adolf Hitler! Commander of the Third Reich! Little known fact: also dope on the mic!",
+              "declaringWar": "You stink, dawg, your style smells something sour! You need to wash up, dawg, here, step in my shower!",
+	      "attacked": "You have the Force to move objects, I am a force truly evil! Even went back in time and turned you wack in the prequel!",
 	      "defeated": "’Cause look at you, you’re not even a real person! I preferred you in Spaceballs, the Rick Moranis version!",
 	      "preferredVictoryType": "Domination",
 	      "favoredReligion": "Atheism",
               "style": "Germanic",
 	
 	      "uniqueName": "Blitzkrieg",
-	      "uniques": ["Upon capturing a city, receive [8] times its [Production] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitz] promotion", "Gain [40]-[160] [Culture] <upon declaring war with a major Civilization>", "[+20]% Production when constructing [All] units [in all cities] <when at war>", "[-1 Happiness, -1 Food, +2 Production] [in annexed cities]"],
-	      "outerColor": [150,22,18],
+	      "uniques": ["Upon capturing a city, receive [8] times its [Science] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitz] promotion", "Gain [25]-[125] [Culture] <upon declaring war with a major Civilization>", "[+20]% Production when constructing [All] units [in all cities] <when at war>", "[-1 Happiness, -1 Food, +2 Production] [in annexed cities]"],
+	      "outerColor": [180,25,15],
 		  "innerColor": [0,0,0],
 	      "cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
@@ -95,7 +95,6 @@
 	    "adjective": ["Doggerlander"],
 	    "preferredVictoryType": "Neutral",
 	    "favoredReligion": "Judaism",
-            "style": "Germanic",
 	    
 	    "startIntroPart1": "",
 		"startIntroPart2": "",
@@ -110,7 +109,7 @@
 		"innerColor": [9,34,1],
 		"uniqueName": "Hilandian Wood Trade",
 		"uniques": ["[+1 Food] from every [Forest] <in [Fresh water] tiles>","[+1 Food] from every [Forest] <in [Hill] tiles>","[+1 Gold] from every [Lumber mill]"],
-		"cities": ["Hilands","New Hilands","Astara","Nailee","Tai","Neo Tai","Lunkei","Satrya","Benneck","Vremont"]
+		"cities": ["Hilands","Doggerland","Astara","Nailee","Tai","Neo Tai","Lunkei","Satrya","Benneck","Vremont"]
       },
 	/* {
         "name": "Indonesia3",
@@ -161,7 +160,7 @@
 	      "name": "Italy2",
 	      "leaderName": "Mussolini",
 	      "adjective": ["Italian"],
-		  "startBias":["Forest"],
+		  "startBias":["Coast"],
 	      "preferredVictoryType": "Domination",
 	      "favoredReligion": "Catholicism",
 	
@@ -199,7 +198,7 @@
 	    "adjective": ["Antarctic"],
 	    "preferredVictoryType": "Domination",
 	    "favoredReligion": "Shinto",
-            "style": "Oceanic",
+            "style": "Polynesia",
 	    
 	    "startIntroPart1": "May success and prosperity always be with you, O Raka the Savior of the East. You led your nation when your nation was on the verge of collapse, as evidenced by the many deaths, famine, economic crisis, and the ongoing war against Bostuosil. But you managed to force Bostuosil to make peace because of your volunteer army of Loko Archers, and solve the economic crisis and hunger with your famous policies and improvement. Because of that your nation became the tundra nation who were feared because of the progress, wealth, prosperity of your people. Even though later your nation must be destroyed because the cruel Sunda Empire.",
 		"startIntroPart2": "But will your nation continue to crumble? O Raka the Savior of the East, your people ask you to return to being their leader and bring back all that Leisi had before, namely prosperity, progress, wealth, and much more. Can you bring your nation to its former glory? Can you build a civilization that will stand the test of time?",
@@ -373,7 +372,7 @@
 	    "name": "Sunda Empire",
 	    "leaderName": "Rangga Sasana",
 	    "adjective": ["Lemurian"],
-	    "startBias": ["Coast", "Avoid Tundra"],
+	    "startBias": ["Coast"],
 	    "preferredVictoryType": "Domination",
 	    "favoredReligion": "Buddhism",
             "style": "North American",
@@ -390,9 +389,9 @@
 	    "outerColor": [124,236,18],
 	    "innerColor": [166,33,122],
 	    "uniqueName": "Mandala Zone",
-	    "uniques": ["All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+20]% Yield from every [Mine]", "[+40]% Yield from every [Farm]", "[-40]% [Production] from every [Production]", "[+40]% maintenance cost for buildings [in all non-occupied cities]", "[20]% of excess happiness converted to [Production]"],
+	    "uniques": ["All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion","[Work Boats] units gain the [Jolopong] promotion", "[+1 Production] per [3] population [in all non-occupied cities] <while the empire is happy>", "No Maintenance costs for improvements in [Land] tiles <with [0] to [0] neighboring [City center] tiles> <in tiles without [Bonus resource]>", "[-20]% [Production] from every [Production]", "[+40]% maintenance cost for buildings [in all cities connected to capital]", "Unhappiness from number of Cities doubled"],
 	    "cities": ["Bandung","Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
-			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir", "Canberra"]
+			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir", "Vapo"]
 	},
 	{
 	      "name": "Soviet Union",
@@ -407,9 +406,9 @@
 	      "introduction": "Stalin on the bitches \nStalin on the hoes \nStalin on everybody \nYuo know how this shit goes \nNo more introduction needed",
 	
 	      "uniqueName": "The Glory of Communism",
-	      "uniques": ["[3] free [Worker] units appear <upon constructing [Gulag]>", "Free [Worker] appears <upon constructing [Granary]>", "[-60]% [Gold]", "[+15]% Production when constructing [Production] buildings [in all cities]", "[+15]% Yield from every [Food] [in all non-occupied cities] <during a Golden Age>", "[-15]% Unhappiness from [Population] [in all cities with a garrison] <when between [75] and [-20] Happiness>", "[+15]% Production when constructing [Melee] units [in all non-occupied cities] <when at war>"], 
+	      "uniques": ["[2] free [Worker] units appear <upon constructing [Gulag]>", "Free [Worker] appears <upon constructing [Granary]>", "[-60]% [Gold]", "[+20]% Production when constructing [Production] buildings [in all cities]", "[+20]% Yield from every [Food] [in all non-occupied cities] <during a Golden Age>", "[-20]% Unhappiness from [Population] [in all cities with a garrison] <when between [75] and [-20] Happiness>", "[+15]% Production when constructing [Melee] units [in all non-occupied cities] <when at war>"], 
 	      "outerColor": [200,20,20],
-		  "innerColor": [125,75,25],
+		  "innerColor": [195,175,55],
 	      "cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
