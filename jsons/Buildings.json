@@ -98,26 +98,6 @@
 		"uniques": ["Gain a free [Gulag] [in this city]","Can only be built [in capital]","Will not be displayed in Civilopedia","Free [Great Engineer] appears","Unsellable","Destroyed when the city is captured"],
 		"requiredTech": "Engineering"
 	},
-     //Wonders
-     {
-        "name": "Borobudur",
-        "faith": 5,
-        "isWonder": true,
-        "uniques": ["[3] free [Missionary] units appear",
-				"Can only be built [in holy cities]",
-				"Hidden when religion is disabled"],
-        "requiredTech": "Theology",
-        "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' - Gautama Buddha"
-	},
-	{
-        "name": "Grand Master’s Chapel",
-        "maintenance": 2,
-        "isWonder": true,
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","Hidden when religion is disabled"],
-        "requiredTech": "Philosophy",
-		"quote": "'The beauty of the Grand Master's Chapel lies in its gold carvings and magnificent size, which makes God's faithful followers relax for a while' - The Books of Clausius"
-	},
-	//Civ Unique Buildings
 	{
 		"name": "Halealii",
 		"uniqueTo": "Strahan",
@@ -277,24 +257,6 @@
 		"uniques": ["Must be next to [Mountain]","[+2 Gold, +2 Production] from every [Mountain]"],
 		"requiredTech": "Astronomy"
 	},
-	//Religious Victory
-   {
-		"name": "World Religion",
-		"cost": 750,
-		"requiredTech": "Drama and Poetry",
-		"isNationalWonder": true,
-		"uniques": ["Triggers a global alert upon build start",
-			"Triggers victory", "Hidden when [Religious] Victory is disabled", "Cannot be hurried"]
-	},
-	//Religious Buildings
-	{
-		"name": "Konesan",
-		"cost": 0,
-		"faith": 3,
-		"science": 2,
-		"specialistSlots": {"Scientist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
-	},
 	{
 		"name": "Meeting House",
 		"cost": 0,
@@ -321,7 +283,7 @@
 	{
 		"name": "Krepost",
 		"replaces": "Barracks",
-		"uniqueTo": "Soviet Union",
+		"uniqueTo": "Russia",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-50]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
@@ -331,7 +293,7 @@
 {
 		"name": "Hanse",
 		"replaces": "Bank",
-		"uniqueTo": "Germany2",
+		"uniqueTo": "Germany",
 		"gold": 2,
 	        "specialistSlots": {"Merchant": 1, "Engineer": 1},
 		"hurryCostModifier": 15,
@@ -343,7 +305,7 @@
 {
 		"name": "Ruhr Valley",
             "replaces": "Ironworks",
-            "uniqueTo": "Germany2",
+            "uniqueTo": "Germany",
 		"cost": 125,
 		"production": 2,
 		"culture": 1,
@@ -357,7 +319,7 @@
 {
 		"name": "Dacha",
 		"replaces": "Garden",
-		"uniqueTo": "Soviet Union",
+		"uniqueTo": "Russia",
                 "happiness": 2,
 		"uniques": ["[+25]% Great Person generation [in this city]","Must be next to [Fresh water]", "[+1 Food] from [Tundra] tiles [in this city]"],
 		"hurryCostModifier": 25,
@@ -365,62 +327,3 @@
 		"requiredTech": "Philosophy"
 	},
     //Improvement 
-/*
-    {
-		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
-		"requiredNearbyImprovedResources": ["Marble", "Stone", "Diamonds"],
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]",
-			"[+1 Production] from [Diamonds] tiles [in this city]"],
-		"requiredTech": "Calendar"
-	},
-	{
-		"name": "Mausoleum of Halicarnassus",
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
-			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Diamonds] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
-		"requiredTech": "Masonry",
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
-	},
-	{
-		"name": "Longhouse",
-		"replaces": "Workshop",
-		"uniqueTo": "Iroquois",
-		"cost": 100,
-		"maintenance": 2,
-		"production": 2,
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]"],
-		"requiredTech": "Metal Casting"
-	},
-	{
-		"name": "Granary",
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]",
-			"[+1 Food] from [Rice] tiles [in this city]"],
-		"requiredTech": "Pottery"
-	},
-	{
-		"name": "Dojo",
-        "replaces": "Barracks",
-		"uniqueTo": "Japan",
-        "hurryCostModifier": 25,
-        "maintenance": 1,
-		"science": 2,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"],
-        "requiredTech": "Bronze Working"
-    }
-*/
-]
