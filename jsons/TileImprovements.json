@@ -1,14 +1,13 @@
 [
     //Improvement
-	{
-		"name": "Fishing Spot",
-                "uniqueTo": "Leisi", 
-		"terrainsCanBeBuiltOn": ["Snow"],
-		"food": 1,
-		"turnsToBuild": 4,
-		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built on [Coastal] tiles", "[+1 Food] <with [1] to [6] neighboring [Fish] tiles>"]
-	},
+	//{
+		//"name": "Fishing Spot",
+         //       "uniqueTo": "Leisi", 
+	//	"terrainsCanBeBuiltOn": ["Snow"],	"food": 1,
+	//	"turnsToBuild": 4,
+		//"techRequired": "Sailing",
+		//"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built on [Coastal] tiles", "[+1 Food] <with [1] to [6] neighboring [Fish] tiles>"]
+	//},
     {
        "name": "Kampung",
        "uniqueTo": "Majapahit",
@@ -42,13 +41,4 @@
 "Cannot be built on [Coast] tiles <with [0] to [2] neighboring [Land] tiles>"
 ]
 	},
-	{
-		"name": "Dzirvanas",
-		"uniqueTo": "Arcadia",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"food": 1,
-		"turnsToBuild": 8,
-		"uniques": ["Cannot be built on [Bonus resource] tiles","Can only be built on [Coastal] tiles","Cannot be built on [Hill] tiles","[+1 Food] <after discovering [Fertilizer]>","[+1 Production] <after discovering [Civil Service]>","[+1 Production] for each adjacent [Dzirvanas]"],
-		"techRequired": "Masonry"
-	}
 ]
