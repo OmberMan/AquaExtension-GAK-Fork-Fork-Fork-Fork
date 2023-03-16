@@ -3,7 +3,7 @@
         "name": "Leisi",
 	    "leaderName":"Raka",
 	    "startBias":["Tundra"],
-	    "adjective": ["Maka'friean"],
+	    "adjective": ["Maka'frian"],
 	    "preferredVictoryType": "Diplomatic",
 	    "favoredReligion": "Shinto",
             "style": "Polynesia",
@@ -21,7 +21,7 @@
 		"innerColor": [239,27,39],
 		"uniqueName": "The Land Without Sun & The Last Best East",
 		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in [Tundra] tiles>","[+2 Production] from every [Mine] <in [Snow] tiles>","[+1] Happiness from each type of luxury resource", "[+2 Food] from every [Farm] <in [Tundra] tiles>", "[+1 Production, +1 Faith, +1 Food] from every [Fish]","[-1 Food] from every [Farm] <in [Tundra] tiles> <in cities with at least [6] [Population]>", "[+2] Sight <for [Water] units> <within [2] tiles of a [Ice]>", "[+2] Sight <for [Land] units> <within [2] tiles of a [Snow]>", "[+25]% Food is carried over after population increases [in all coastal cities] <in [Tundra] Regions>", "[+2 Production] from [Snow] tiles [in all coastal cities] <after discovering [Industrialization]>"],
-		"cities": ["Ares","Bagg","Surya","Seiig","Seong","Yoai","Trang","Pakaraya","Ponak","Sarinda","Masin","Tanjie","Baiah","Jaia"]
+		"cities": ["Mecafria","Ares","Bagg","Surya","Seiig","Seong","Yoai","Trang","Pakaraya","Ponak","Sarinda","Masin","Tanjie","Baiah","Jaia"]
       },
 	{
 	    "name": "Sunda Empire",
@@ -44,8 +44,8 @@
 	    "outerColor": [134,216,48],
 	    "innerColor": [166,122,33],
 	    "uniqueName": "Mandala Zone",
-	    "uniques": ["All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion", "[Work Boats] units gain the [Jolopong] promotion", "[+1 Production] per [3] population [in all non-occupied cities] <while the empire is happy>", "No Maintenance costs for improvements in [Land] tiles <with [0] to [0] neighboring [City center] tiles> <in tiles without [Bonus resource]>", "[-20]% [Production] from every [Production]", "[+40]% maintenance cost for buildings [in all cities connected to capital]", "Unhappiness from number of Cities doubled"],
-	    "cities": ["Bandung","Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
+	    "uniques": ["All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion", "[Work Boats] units gain the [Jolopong] promotion", "[+1 Production] per [3] population [in all non-occupied cities] <while the empire is happy>", "No Maintenance costs for improvements in [Land] tiles <with [0] to [0] neighboring [City center] tiles> <in tiles without [Bonus resource]>", "[-5]% [Production] from every [Production]", "[+40]% maintenance cost for buildings [in all cities connected to capital]", "Unhappiness from number of Cities doubled"],
+	    "cities": ["Bandung","Lasanova","Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
 			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir", "Vapo"]
 	},
 	{
@@ -60,8 +60,8 @@
 	      "uniqueName": "Land of the Prophets",
 	      "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>","[-25]% Faith cost of generating Great Prophet equivalents", "[+20]% Strength decreasing with distance from the capital <for [Sword] units> <after founding a religion>", "[+20]% Strength decreasing with distance from the capital <for [Archery] units> <after founding a Pantheon>", "[+10]% growth [in all cities] <in cities with at least [8] [Followers of the Majority Religion]>", "[+2 Faith, +1 Production] from [Hill] tiles [in holy cities] <in [Plains] tiles>", "[+1 Faith, +1 Food] from [Hill] tiles [in holy cities] <in [Grassland] tiles>", "[+1 Faith] from [Mountain] tiles [in all non-occupied cities]"],
 	      "outerColor": [25,154,15],
-		  "innerColor": [184,143,16],
-	      "cities": ["Aetherus","Paphollo","Chamoezen","Pheregea","Tauresia","Stympheidonia","Knidiki","Kasmenaros","Assespontos","Rinda","Chalcigus"
+		  "innerColor": [184,163,36],
+	      "cities": ["Jonnawa","Aetherus","Paphollo","Chamoezen","Pheregea","Tauresia","Stympheidonia","Knidiki","Kasmenaros","Assespontos","Rinda","Chalcigus"
 ]
 	},
 ]
