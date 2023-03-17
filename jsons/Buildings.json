@@ -1,11 +1,4 @@
 [
-     //Civ Uniques
-	{
-        "name": "~limit",
-	    "gold": 2,
-        "cost": -1,
-        "uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
-    },
     {
         "name": "Saffron", // Bostuosil luxury
         "uniqueTo": "Bostuosil",
@@ -19,67 +12,7 @@
         "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cardamom]","Must be next to [Coast]"],
-    },
-    {
-         "name": "Indonesia [Tradition]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Tradition Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Liberty]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Liberty Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Honor]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Honor Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Piety]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Piety Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Patronage]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Patronage Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Commerce]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Commerce Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Rationalism]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Rationalism Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Freedom]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Freedom Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Autocracy]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Autocracy Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
-    {
-         "name": "Indonesia [Order]",
-         "cost": 1,
-         "uniqueTo": "Indonesia2",
-         "uniques": ["Can only be built [in capital]","Only available <after adopting [Order Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
-    },
+    }, 
     {
 	    "name": "Gulag",
 	    "uniqueTo": "Soviet Union",
@@ -248,14 +181,15 @@
 	},
 	{
 	    "name": "Star Observatory",
-	    "uniqueTo": "Questain",
+	    "uniqueTo": "Babylon",
 		"replaces": "Observatory",
-		"maintenance": 0,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 50},
+		"maintenance": 3,
+		"hurryCostModifier": 35,
+                "faith": 2,
+		"percentStatBonus": {"science": 33, "food": 10},
 		"requiredBuilding": "Library",
-		"uniques": ["Must be next to [Mountain]","[+2 Gold, +2 Production] from every [Mountain]"],
-		"requiredTech": "Astronomy"
+		"uniques": ["[+1 Food] from every [Wheat]"],
+		"requiredTech": "Optics"
 	},
 	{
 		"name": "Meeting House",
