@@ -1,6 +1,5 @@
 [
-   /* 
-{
+   /* {
         "name": "Saffron", 
         "uniqueTo": "Bostuosil",
         "isNationalWonder": true,
@@ -13,8 +12,7 @@
         "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cardamom]","Must be next to [Coast]"],
-    }, 
-*/ 
+    }, */ 
    {
 	    "name": "Gulag",
 	    "uniqueTo": "Soviet Union",
