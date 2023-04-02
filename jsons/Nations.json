@@ -6,7 +6,7 @@
 	    "adjective": ["Maka'frian"],
 	    "preferredVictoryType": "Diplomatic",
 	    "favoredReligion": "Shinto",
-            "style": "Polynesian",
+            "style": "Oceania",
 	    
 	    "startIntroPart1": "May success and prosperity always be with you, O Raka the Savior of the East. You led your nation when your nation was on the verge of collapse, as evidenced by the many deaths, famine, economic crisis, and the ongoing war against Bostuosil. But you managed to force Bostuosil to make peace because of your volunteer army of Loko Archers, and solve the economic crisis and hunger with your famous policies and improvement. Because of that your nation became the tundra nation who were feared because of the progress, wealth, prosperity of your people. Even though later your nation must be destroyed because the cruel Sunda Empire.",
 		"startIntroPart2": "But will your nation continue to crumble? O Raka the Savior of the East, your people ask you to return to being their leader and bring back all that Leisi had before, namely prosperity, progress, wealth, and much more. Can you bring your nation to its former glory? Can you build a civilization that will stand the test of time?",
@@ -20,17 +20,17 @@
 		"outerColor": [235,234,91],
 		"innerColor": [239,27,39],
 		"uniqueName": "The Land Without Sun & The Last Best East",
-		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in [Tundra] tiles>","[+2 Production] from every [Mine] <in [Snow] tiles>","[+1] Happiness from each type of luxury resource", "[+2 Food] from every [Farm] <in [Tundra] tiles>", "[+1 Faith, +1 Food] from every [Fish]","[-1 Food] from every [Farm] <in [Tundra] tiles> <in cities with at least [6] [Population]>", "[+2] Sight <for [Water] units> <within [2] tiles of a [Ice]>", "[+2] Sight <for [Land] units> <within [2] tiles of a [Snow]>", "[+25]% Food is carried over after population increases [in all coastal cities] <in [Tundra] Regions>", "[+2 Production] from [Snow] tiles [in all coastal cities] <after discovering [Industrialization]>"],
-		"cities": ["Mecafria","Ares","Bagg","Surya","Seiig","Seong","Yoai","Trang","Pakaraya","Ponak","Sarinda","Masin","Tanjie","Baiah","Jaia"]
+		"uniques": ["[+1 Production, +1 Gold] from every [Mine] <in [Tundra] tiles>","[+2 Production] from every [Mine] <in [Snow] tiles>","[+1 Production] from every [Snow]", "[+1 Food] from every [Farm] <in [Tundra] tiles>", "[+1 Faith, +1 Food] from every [Fish]","[-1 Food] from every [Farm] <in [Tundra] tiles> <in cities with at least [6] [Population]>", "[+2] Sight <for [Water] units> <within [2] tiles of a [Ice]>", "[+2] Sight <for [Land] units> <within [2] tiles of a [Snow]>", "[+25]% Food is carried over after population increases [in all coastal cities] <in [Tundra] Regions>", "[+2 Production] from [Snow] tiles [in all coastal cities] <after discovering [Industrialization]>"],
+		"cities": ["Te Taone-O-Te-Marama", "Ūi Te Rangiora", "Mecafria","Ares","Whenua-Kore-Mana","Bagg","Surya","Seiig","Seong","Yoai","Trang","Pakaraya","Ponak","Sarinda","Masin","Tanjie","Baiah","Jaia"]
       },
 	{
 	    "name": "Sunda Empire",
-	    "leaderName": "Rangga Sasana",
+	    "leaderName": "Rangga Sasana Gupta",
 	    "adjective": ["Lemurian"],
 	    "startBias": ["Coast"],
 	    "preferredVictoryType": "Domination",
 	    "favoredReligion": "Buddhism",
-            "style": "North American",
+            "style": "Middle Eastern",
 	
 	    "startIntroPart1": "Warm greetings to the ruler of the whole world, the great Rangga Sasana of the Sunda Empire. You have conquered the world and made them your brave warriors, all the progress you have made started from the Bandung Declaration which resulted in the advancement of technology and your army at least in the dream world. After that you quickly conquered the whole world in one day and started the Bandung Declaration II which contained a treaty of world unity in one banner of the Sunda Empire.",
 	    "startIntroPart2": "O Rangga Sasana the ruler of worlds. The empire you lead is indeed prosperous and victorious in all fields. But your people seem to be starting to lose their identity especially after you disappeared. O Rangga Sasana, your people ask you to lead them again in achieving the glory of the Sunda Empire forever and ever. Can you do it? Can you build a civilization that will stand the test of time?",
@@ -44,13 +44,13 @@
 	    "outerColor": [134,216,48],
 	    "innerColor": [166,122,33],
 	    "uniqueName": "Mandala Zone",
-	    "uniques": ["All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion", "All newly-trained [Work Boats] units [in all cities] receive the [Jolopong] promotion", "[+1 Production] per [3] population [in all non-occupied cities] <while the empire is happy>", "No Maintenance costs for improvements in [Land] tiles <with [0] to [0] neighboring [City center] tiles> <in tiles without [Luxury resource]>", "[+33]% maintenance cost for buildings [in all cities connected to capital]", "Unhappiness from number of Cities doubled"],
+	    "uniques": ["All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion", "All newly-trained [Work Boats] units [in all cities] receive the [Jolopong] promotion", "[+1 Production] per [3] population [in all non-occupied cities] <while the empire is happy>", "No Maintenance costs for improvements in [Land] tiles <with [0] to [0] neighboring [City center] tiles> <in tiles without [Luxury resource]>", "[+50]% maintenance cost for buildings [in all cities connected to capital]", "Unhappiness from number of Cities doubled"],
 	    "cities": ["Bandung","Lasanova","Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
 			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir", "Vapo"]
 	},
 	{
 	      "name": "Zastaria",
-	      "leaderName": "Dan",
+	      "leaderName": "King Roderiq of Dan",
 	      "startBias": ["Hill"],
 	      "adjective": ["Yohanniaan"],
 	      "preferredVictoryType": "Neutral",
@@ -59,8 +59,8 @@
 	
 	      "uniqueName": "Land of the Prophets",
 	      "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>","[-25]% Faith cost of generating Great Prophet equivalents", "All newly-trained [Great Prophet] units [in all cities] receive the [Prophets of War] promotion", "[+20]% Strength decreasing with distance from the capital <for [Archery] units> <after founding a Pantheon>", "[+10]% growth [in all cities] <in cities with at least [8] [Followers of the Majority Religion]>", "[+2 Faith, +1 Production] from [Hill] tiles [in holy cities] <in [Plains] tiles>", "[+1 Faith, +1 Food] from [Hill] tiles [in holy cities] <in [Grassland] tiles>", "[+1 Faith] from [Mountain] tiles [in all non-occupied cities]"],
-	      "outerColor": [25,154,15],
-		  "innerColor": [184,163,36],
+	      "outerColor": [193,179,45],
+		  "innerColor": [163,184,36],
 	      "cities": ["Yohannasville", "Joanadawa","Aetherus","Paphollo","Chamoezen","Pheregea","Tauresia","Stympheidonia","Knidiki","Kasmenaros","Assespontos","Rinda","Chalcigus"
 ]
 	},
