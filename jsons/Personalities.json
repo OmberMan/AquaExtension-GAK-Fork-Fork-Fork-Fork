@@ -1,1 +1,59 @@
-perso
+[
+{
+                "name": "Raka",
+                "preferredVictoryType": "Scientific",
+                "food": 5,
+                "production": 6,
+                "gold": 3,
+                "culture": 5,
+                "science": 6,
+                "faith": 4,
+                "military": 7,
+                "warMongering": 5,
+"priorities": {
+    "Exploration": 50,
+    "Liberty": 10,
+"Rationalism": 10,
+    "Tradition": 20,
+"Honor": 20
+}
+        },
+{
+                "name": "Rangga",
+                "preferredVictoryType": "Diplomatic",
+                "food": 8,
+                "production": 2,
+                "gold": 8,
+                "culture": 5,
+                "science": 3,
+                "faith": 6,
+                "military": 5,
+                "warMongering": 4,
+"priorities": {
+    "Patronage": 30,
+    "Exploration": 20,
+"Piety": 20,
+    "Order": 50,
+"Commerce": 30,
+}
+        },
+{
+                "name": "Roderiq",
+                "preferredVictoryType": "Domination",
+                "food": 5,
+                "production": 4,
+                "gold": 7,
+                "culture": 6,
+                "science": 2,
+                "faith": 10,
+                "military": 9,
+                "warMongering": 8,
+"priorities": {
+    "Autocracy": 10,
+    "Honor": 30,
+"Piety": 40,
+    "Tradition": 20,
+"Liberty": 10,
+}
+        }
+]
